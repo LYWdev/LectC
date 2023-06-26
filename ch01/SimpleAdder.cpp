@@ -6,7 +6,7 @@
 int main(void)
 {
   int num1;
-  std::cout<< "Type first NUM1";
+  std::cout<< "type first NUM1";
   std::cin>>num1;
 
   int num2;
