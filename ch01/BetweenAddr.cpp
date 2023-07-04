@@ -1,5 +1,8 @@
 #include <iostream>
 
+using namespace std;
+
+
 int main(void)
 {
   int num1;
@@ -20,8 +23,8 @@ int main(void)
     for(int i = num2; i < num1; i++)
       res=+i;
   }
-  std::cout<<"두 수의 합"<<res<<std::endl;
-  std::cout<<arr<<std::endl;
+  std::cout<<"두 수의 합"<<res<<"\n";
+  printf("%d",&res);
 
 return 0;
 }
